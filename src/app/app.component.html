@@ -1,0 +1,22 @@
+<div class="wrapper">
+<div class="ex1">
+  <H2>Exercise 1</H2>
+  <div class="search">
+     <input type="text" class="searchTerm" placeholder="enter the test data" [(ngModel)]="searchterm" >
+     <button type="submit" class="searchButton"  (click)="search()">
+      Search
+    </button>
+  </div>
+
+<h3 *ngIf = 'result'>
+  {{result}}
+</h3>
+</div>
+
+
+  <div class="ex2">
+    <H2>Exercise 2</H2>
+    <app-callback-hell>
+    </app-callback-hell>
+  </div>
+</div>

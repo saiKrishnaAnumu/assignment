@@ -1,0 +1,19 @@
+<div class = 'callback'>
+ <button type="submit" class="butt"   (click)="callBackHell()">
+    Call Back Hell
+  </button>
+<mat-progress-bar mode="indeterminate" *ngIf="matProgressBar1"></mat-progress-bar>
+<h3 *ngIf = 'status'>
+  {{status}}
+</h3>
+</div>
+
+<div class = 'ngrx'>
+  <button type="submit" class="butt"   (click)="ngrxMethod()">
+     Using Ngrx
+   </button>
+ <mat-progress-bar mode="indeterminate" *ngIf="matProgressBar2"></mat-progress-bar>
+ <h3 *ngIf = 'status1'>
+  {{status1}}
+</h3>
+ </div>

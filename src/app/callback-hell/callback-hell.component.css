@@ -1,0 +1,14 @@
+.butt {
+    height: 36px;
+    border: 1px solid #bbd6da;
+    background: #cc4b00;
+    text-align: center;
+    color: #fff;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    font-size: 20px;
+    margin: 5px 10px 20px 0px;
+  }
+
+  
+  
